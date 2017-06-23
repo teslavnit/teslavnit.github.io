@@ -1,0 +1,229 @@
+.container-fluid{
+	padding: 0;
+}
+
+#back {
+	background-color: black;
+}
+#logo {
+	height: 2.4em;
+	float: left;
+	padding-left: 1em;
+}
+.navbar {
+	opacity: 0.9;
+    font-family: iceberg;
+	font-size: 1.5em;
+	text-align: center;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    color: azure;
+}
+.navbar-brand {
+	padding-left: 20px;
+	font-size: 1.0em;
+	color: aliceblue;
+}
+@media (max-width: 400px) {
+    #logo {
+        height: 2em;
+        padding-top: 0.5em;
+    }
+}
+#drop {
+	text-align: center;
+    color: azure;
+}
+#carousel1 {
+	width: 100%;
+    padding-top: 4em;
+}
+
+#article {
+	padding-top: 2em;
+    text-align: center;
+}
+#welcome {
+    font-size: 2.5em;
+    color: white;
+    font-family: iceberg;
+    font-style: normal;
+}
+hr {
+    width: 75%;
+    opacity: 0.5;
+}
+#tmbnails {
+    padding: 2em;
+}
+.thumbnail {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #090909;
+    max-width: 25em;
+    opacity: 0.7;
+    filter: contrast(80%);
+}
+@media (max-width: 500px) {
+    .thumbnail {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #090909;
+    max-width: 25em;
+    opacity: 1.0;
+    filter: contrast(100%);
+}
+}
+.thumbnail:hover {
+    opacity: 1.0;
+    filter: contrast(100%);
+}
+.title {
+    font-size: 3em;
+    font-family: iceberg;
+    color: floralwhite;
+    padding-top: 0.5em;
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+    text-align: center;
+    margin-left: auto;
+}
+.hdng {
+    font-family: iceland;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2em;
+    color: navajowhite;
+}
+.para {
+    color: #BFAEAF;
+    font-family: iceberg;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.23em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+/*Footer*/
+#footer {
+    background-color: #161414;
+    text-align: center;
+    font-family: iceland;
+    font-size: 2.5em;
+    color: aquamarine;
+    padding-bottom: 0.2em;
+}
+.socicon {
+    height: 1.5em;
+    filter: grayscale(100%);
+    padding-left: 0.5em;
+}
+
+.socicon:hover {
+    filter: grayscale(0%);
+}
+#credit {
+    font-size: 1.5em;
+    background-color: #000000;
+    opacity: 0.5;
+    font-family: iceland;
+    padding-bottom: 0;
+    text-align: center;
+}
+#credit:hover {
+    opacity: 1.0;
+}
+
+/*Events*/
+#cal {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+#calendar {
+    width: 100%;
+    padding: 1em;
+    height: 40em;
+}
+@media (max-width: 700px) {
+    #calendar {
+        height: 30em;
+    }
+}
+
+
+/*Contact form*/
+#main {
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 1em;
+}
+
+
+
+form {
+    background-color: #141414;
+    padding: 2em;
+    padding-bottom: 5em;
+    font-family: iceland;
+    text-align: center;
+    color: black;
+    border-radius: 2em;
+    font-size: 1.5em;
+}
+input, #input {
+    width: 100%;
+    margin: 0.5em auto;
+    padding: 0.5em;
+    border-radius: 1em;
+}
+#tick {
+    margin-left: 0;
+    width: 1em;
+}
+#reset {
+    width: 45%;
+    float: left;
+    color: black;
+    opacity: 0.9;
+}
+#submit {
+    width: 45%;
+    float: right;
+    color: black;
+    opacity: 0.9;
+}
+#reset:hover, #submit:hover {
+    opacity: 1.0;
+    background-color: aqua;
+}
+#notif {
+    text-align: left;
+    color: dimgrey;
+}
+
+/*Map*/
+#find {
+    width: auto;
+    padding: 1em;
+    margin: 0 auto;
+}
+
+#googleMap {
+    width: 100%;
+    height: 41.2em;
+    border-radius: 2em;
+}
+@media (max-width: 991px) {
+    #googleMap {
+        height: 20em;
+    }
+}
+/*Contact*/
+#goBack {
+    width: 100px;
+    color: black;
+    padding: 2em;
+}
